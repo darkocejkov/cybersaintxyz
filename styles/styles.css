@@ -40,9 +40,23 @@
     margin-right: 45px;
 }
 
-.table{
-    display: table;
-    padding-left: 40px;
+.grid-container{
+    display: inline-grid;
+    #border: solid black 1px;
+    grid-gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-title{
+    #text-decoration: overline;
+    border: solid black .5px;
+    font-size: 1em;
+    font-style: italic;
+    padding: 3px;
+}
+
+.grid-item{
+    padding-bottom: 2px;
 }
 
 ul.hlist{
@@ -66,12 +80,19 @@ ul.hlist li{
     padding-top: 20px;   
 }
 
+.item3{
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+
 .text{
     padding-top: 70px;
+    padding-left: 10px;
 }
 
 .bottom{
-    border-bottom: solid black
+    border-bottom: solid black;
 }
 
 .animated{
@@ -101,7 +122,7 @@ a:visited{
 
 
 .block{
-    padding-top: 3px;
+    padding-top: 5px;
     height: 30px;
     width: 350px;
     background-color: black;
