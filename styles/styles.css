@@ -120,6 +120,17 @@ a:visited{
     color: black;
 }
 
+#buttons{
+   padding-left: 45%;
+   padding-top: 10%;
+}
+
+#buttons p{    
+    display: inline;
+    border: solid black 1px;
+    text-align: center;
+}
+
 
 .block{
     padding-top: 5px;
@@ -170,5 +181,9 @@ html{
     cursor: crosshair;
     height: 99%;
     width: 99.%;
+}
+
+canvas{
+    display: block;   
 }
 

@@ -5,9 +5,17 @@
         <title> cybersaint's site of basic html </title>
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <script src="lib/p5.js"></script>
+        <script src="lib/p5.dom.min.js"></script>
+        <script src="lib/p5.sound.min.js"></script>
         <script src="scripts/scripts.js"></script>
+        <!--<script src="sketches/sketch.js"></script>-->
     </head>
     <body>
+        <div id="buttons">
+            <p onclick='back()' id='back'> prev &nbsp;</p> <p onclick='play()' id='play'> play &nbsp;</p> <p onclick='stop()' id='stop'> stop &nbsp;</p> <p onclick='next()' id='next'> next &nbsp;</p> <p id='name'> █ </p>
+        </div>
+        <div id="sketcher"></div>
         <div id="boxbox">
             <div id="box">
                 <h1 class="text"> <span class="bottom">cybersaint</span> </h1>
@@ -24,5 +32,4 @@
             </div>
         </div>
     </body>
-    
 </html>
